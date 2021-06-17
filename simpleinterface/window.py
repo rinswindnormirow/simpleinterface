@@ -341,9 +341,11 @@ class MainWindow(Window):
         return key
 
     def on_resize(self, sig, action):
-        height, width = self.term.__height, self.term.__width
+        height, width = self.term.height, self.term.width
         self.rx = width - 1
         self.ry = height - 1
+        self.work_size()
+        self.screen.reset()
         self.on_paint()
 
     def on_paint(self):

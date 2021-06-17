@@ -15,6 +15,9 @@ class Screen:
         self.term = Terminal(force_styling=True)
         # self.log = open('log3.log', 'a')
 
+    def reset(self):
+        self.screen = {(0, 0): "",}
+
     def __render(self):
         screen2render = {}
         for ii in self.regions_order:

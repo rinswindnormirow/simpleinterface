@@ -47,9 +47,9 @@ if __name__ == '__main__':
 
     sub_sub_sub_menu_2 = SubMenu("sub_sub_sub_menu_2")
     sub_sub_sub_menu_2.set_menu(
-        [["При пожаре", True, None, None],
+        [["При пожаре", False, None, None],
          ["Воруй", True, None, None],
-         ["Убивай", True, None, None],
+         ["Убивай", False, None, None],
          ["Еби гусей", True, None, None],
          ["Жди ответного гудка", True, None, None]])
 
