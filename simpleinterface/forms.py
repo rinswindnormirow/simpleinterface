@@ -1,4 +1,4 @@
-from .window import SubWindow, _Message
+from .window import SubWindow
 from .control import Button
 from .string_buffer import StringBuffer
 

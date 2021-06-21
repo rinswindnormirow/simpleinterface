@@ -4,12 +4,6 @@ from .app import App
 from .string_buffer import StringBuffer
 # from .control import Button
 
-class _Message:
-    _type = ''
-
-    def __init__(self, type):
-        self._type = type
-
 class Window:
     main_wnd = None
     handle = -1

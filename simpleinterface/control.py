@@ -1,4 +1,4 @@
-from .window import SubWindow, _Message
+from .window import SubWindow
 from .string_buffer import StringBuffer
 
 import traceback
